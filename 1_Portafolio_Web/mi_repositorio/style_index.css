@@ -1,0 +1,91 @@
+/* MENU */
+#header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .logo {
+ background-color:beige;
+ color: #A8C686;
+ padding: 10px;
+ font-family: 'BLUE OCEAN';
+ font-size: 30px;
+ border-radius: 8px;
+
+ 
+}
+
+#header .menu ul{
+display: flex;
+list-style: none;
+}
+
+#header .menu ul li a{
+    text-decoration: none;
+    background-color: #AC9FBB;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    color: beige;
+    /* resolver cambiar tipografía */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#header .menu ul li a:hover {
+    background-color: #A8C686;
+}
+
+/* PRESENTACIÓN */
+section.historia{
+    padding: 25px;
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.historia .historia-info{
+    padding: 25px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 500px;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+section.historia .historia-info h2{
+    color: #A8C686;
+    font-family: 'BLUE OCEAN';
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+section.historia .historia-info p{
+    color: #AC9FBB;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+section.historia .historia-img img{
+    width: 300px;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .historia {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .historia {
+      width: 100%;
+    }
+  }

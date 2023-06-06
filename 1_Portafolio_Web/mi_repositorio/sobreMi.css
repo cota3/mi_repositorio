@@ -1,0 +1,88 @@
+/* MENU */
+#header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .logo {
+ background-color:beige;
+ color: #A8C686;
+ padding: 10px;
+ font-family: 'BLUE OCEAN';
+ font-size: 30px;
+ border-radius: 8px;
+
+ 
+}
+
+#header .menu ul{
+display: flex;
+list-style: none;
+}
+
+#header .menu ul li a{
+    text-decoration: none;
+    background-color: #AC9FBB;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    color: beige;
+    /* resolver cambiar tipografía */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#header .menu ul li a:hover {
+    background-color: #A8C686;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
